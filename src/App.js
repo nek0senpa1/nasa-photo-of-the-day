@@ -25,11 +25,13 @@ function App() {
 
   return (
     <div className="App">
+      <div className="stuff">
       <h1>
         STUFF !!!!
       </h1>
       <p>{stuff.copyright}</p>
       <ImageStuff stuff={stuff} />
+      </div>
 
     </div>
   );
